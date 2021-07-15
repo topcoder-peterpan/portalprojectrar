@@ -1,0 +1,42 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+  name: "web-sm-site-portal-{{branch}}"
+  labels:
+    app: "web-sm-site-portal-{{branch}}"
+  annotations:
+    service.beta.kubernetes.io/azure-dns-label-name: "web-sm-site-portal-{{branch}}"
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      name: http
+  selector:
+    app: "web-sm-site-portal-{{branch}}"
+
+---
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "web-sm-site-portal-{{branch}}"
+spec:
+  selector:
+    matchLabels:
+      app: "web-sm-site-portal-{{branch}}"
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: "web-sm-site-portal-{{branch}}"
+    spec:
+      containers:
+        - name: "web-sm-site-portal-{{branch}}"
+          image: "ctmdevuat.azurecr.io/studymax/site-portal"
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+

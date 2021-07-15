@@ -1,0 +1,716 @@
+{
+  "trialData": [
+    {
+      "study": "",
+      "statuses": [
+        {
+          "study": "test"
+        }
+      ]
+    }
+  ],
+  "studies": [
+    {
+      "id": 1,
+      "value": "Gladiolus"
+    },
+    {
+      "id": 2,
+      "value": "Anemone"
+    },
+    {
+      "id": 3,
+      "value": "Daffodil"
+    },
+    {
+      "id": 4,
+      "value": "Sunflower"
+    },
+    {
+      "id": 5,
+      "value": "Chrysanthemum"
+    }
+  ],
+  "cards": [
+    {
+      "title": "GLADIOLUS",
+      "titleNum": 5,
+      "phoneScreen": 56,
+      "firstVisit": 23,
+      "inScreening": 37,
+      "randomized": 24,
+      "visits18": 55,
+      "visits816": 18,
+      "visits1724": 39,
+      "followUp": 78
+    },
+    {
+      "title": "ANEMONE",
+      "titleNum": 12,
+      "phoneScreen": 32,
+      "firstVisit": 44,
+      "inScreening": 25,
+      "randomized": 14,
+      "visits18": 12,
+      "visits816": 10,
+      "visits1724": 8,
+      "followUp": 0
+    },
+    {
+      "title": "DAFFODIL",
+      "titleNum": 2,
+      "phoneScreen": 23,
+      "firstVisit": 16,
+      "inScreening": 19,
+      "randomized": 33,
+      "visits18": 55,
+      "visits816": 61,
+      "visits1724": 48,
+      "followUp": 87
+    },
+    {
+      "title": "SUNFLOWER",
+      "titleNum": 0,
+      "phoneScreen": 23,
+      "firstVisit": 16,
+      "inScreening": 19,
+      "randomized": 33,
+      "visits18": 55,
+      "visits816": 61,
+      "visits1724": 48,
+      "followUp": 87
+    },
+    {
+      "title": "CHRYSANTHEMUM",
+      "titleNum": 21,
+      "phoneScreen": 33,
+      "firstVisit": 22,
+      "inScreening": 52,
+      "randomized": 15,
+      "visits18": 11,
+      "visits816": 20,
+      "visits1724": 12,
+      "followUp": 8
+    }
+  ],
+  "lists": [
+    {
+      "date": "08/31/2021",
+      "name": "Jana Church",
+      "visit": "visit5-12@#",
+      "vnum": "Visit 5",
+      "time": "1:00 PM",
+      "IVRS": "123457-770"
+    },
+    {
+      "date": "08/31/2021",
+      "name": "Lee Roy",
+      "visit": "visit5-12@#",
+      "vnum": "Visit 7",
+      "time": "1:00 PM",
+      "IVRS": "123457-770"
+    },
+    {
+      "date": "08/31/2021",
+      "name": "Micharel Baker",
+      "visit": "visit5-12@#",
+      "vnum": "Visit 12",
+      "time": "1:00 PM",
+      "IVRS": "123457-770"
+    },
+    {
+      "date": "08/31/2021",
+      "name": "Julio Escobar",
+      "visit": "visit5-12@#",
+      "vnum": "Visit 5",
+      "time": "1:00 PM",
+      "IVRS": "123457-770"
+    },
+    {
+      "date": "08/31/2021",
+      "name": "John Smith",
+      "visit": "visit5-12@#",
+      "vnum": "Visit 7",
+      "time": "2:00 PM",
+      "IVRS": "123457-770"
+    },
+    {
+      "date": "08/31/2021",
+      "name": "Lee Roy",
+      "visit": "visit5-12@#",
+      "vnum": "Visit 21",
+      "time": "1:00 PM",
+      "IVRS": "123457-770"
+    },
+    {
+      "date": "08/31/2021",
+      "name": "Micharel Baker",
+      "visit": "visit5-12@#",
+      "vnum": "Visit 8",
+      "time": "2:00 PM",
+      "IVRS": "123457-770"
+    },
+    {
+      "date": "08/31/2021",
+      "name": "Julio Escobar",
+      "visit": "visit5-12@#",
+      "vnum": "Visit 12",
+      "time": "1:00 PM",
+      "IVRS": "123457-770"
+    }
+  ],
+  "visits": [
+    {
+      "visitType": "visit18",
+      "visitNumber": 1,
+      "visitStatus": "complete",
+      "date": "05/16/2020"
+    },
+    {
+      "visitType": "visit18",
+      "visitNumber": 2,
+      "visitStatus": "complete",
+      "date": "05/19/2020"
+    },
+    {
+      "visitType": "visit18",
+      "visitNumber": 3,
+      "visitStatus": "complete",
+      "date": "05/21/2020"
+    },
+    {
+      "visitType": "visit18",
+      "visitNumber": 4,
+      "visitStatus": "complete",
+      "date": "05/22/2020"
+    },
+    {
+      "visitType": "visit18",
+      "visitNumber": 5,
+      "visitStatus": "complete",
+      "date": "05/23/2020"
+    },
+    {
+      "visitType": "visit18",
+      "visitNumber": 6,
+      "visitStatus": "complete",
+      "date": "05/24/2020"
+    },
+    {
+      "visitType": "visit18",
+      "visitNumber": 7,
+      "visitStatus": "complete",
+      "date": "05/26/2020"
+    },
+    {
+      "visitType": "visit18",
+      "visitNumber": 8,
+      "visitStatus": "complete",
+      "date": "06/11/2020"
+    },
+    {
+      "visitType": "visit916",
+      "visitNumber": 9,
+      "visitStatus": "complete",
+      "date": "06/16/2020"
+    },
+    {
+      "visitType": "visit916",
+      "visitNumber": 10,
+      "visitStatus": "complete",
+      "date": "06/24/2020"
+    },
+    {
+      "visitType": "visit916",
+      "visitNumber": 11,
+      "visitStatus": "complete",
+      "date": "06/25/2020"
+    },
+    {
+      "visitType": "visit916",
+      "visitNumber": 12,
+      "visitStatus": "complete",
+      "date": "06/26/2020"
+    },
+    {
+      "visitType": "visit18",
+      "visitNumber": 13,
+      "visitStatus": "complete",
+      "date": "06/27/2020"
+    },
+    {
+      "visitType": "visit916",
+      "visitNumber": 14,
+      "visitStatus": "complete",
+      "date": "06/28/2020"
+    },
+    {
+      "visitType": "visit916",
+      "visitNumber": 15,
+      "visitStatus": "complete",
+      "date": "06/29/2020"
+    },
+    {
+      "visitType": "visit916",
+      "visitNumber": 16,
+      "visitStatus": "complete",
+      "date": "06/30/2020"
+    },
+    {
+      "visitType": "visit1724",
+      "visitNumber": 17,
+      "visitStatus": "complete",
+      "date": "07/01/2020"
+    },
+    {
+      "visitType": "visit1724",
+      "visitNumber": 18,
+      "visitStatus": "scheduled",
+      "date": "07/02/2020"
+    }
+  ],
+  "patientcontacts": [
+    {
+      "zip": "zip",
+      "lastName": "Doe",
+      "country": "country",
+      "applicableProtocolNo": "applicableProtocolNo",
+      "careGiverEmailAddress": "careGiverEmailAddress",
+      "homePhoneNumber": "homePhoneNumber",
+      "address": "address",
+      "city": "city",
+      "referralId": 0,
+      "timeZone": "timeZone",
+      "preferredCallBackTime": "preferredCallBackTime",
+      "siteUserId": 6,
+      "uploadUserId": 5,
+      "firstName": "John",
+      "emailAddress": "emailAddress",
+      "cellPhoneNumber": "cellPhoneNumber",
+      "permissionLeaveMessage": true,
+      "ivrno": "ivrno",
+      "siteId": 1,
+      "middleName": "middleName",
+      "state": "state",
+      "careGiverrsPhoneNumber": "careGiverrsPhoneNumber",
+      "careGiversName": "careGiversName"
+    }
+  ],
+  "retentions": [
+    {
+      "name": "Jana Church",
+      "source": "ctm",
+      "IVRS": "123457-770",
+      "visitType": "VISIT8",
+      "nextVisitType": "V8",
+      "visitScheduled": "",
+      "userState": "active",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "06/30/2021",
+      "droppedDate": "06/30/2021",
+      "completedDate": "06/30/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Skylar Rhiel Madsen",
+      "source": "site database",
+      "IVRS": "123432-720",
+      "visitType": "VISIT24",
+      "nextVisitType": "V22",
+      "visitScheduled": "",
+      "userState": "active",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Miracle Stanton",
+      "source": "ctm",
+      "IVRS": "125407-770",
+      "visitType": "VISIT8",
+      "nextVisitType": "V3",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "active",
+      "trialState": "droppedout",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": "11/01/2021"
+    },
+    {
+      "name": "Terry Geidt",
+      "source": "site database",
+      "IVRS": "163466-640",
+      "visitType": "VISIT16",
+      "nextVisitType": "V12",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "complete",
+      "trialState": "droppedout",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Nolan Aminoff",
+      "source": "ctm",
+      "IVRS": "125507-789",
+      "visitType": "VISIT24",
+      "nextVisitType": "V23",
+      "visitScheduled": "",
+      "userState": "complete",
+      "trialState": "droppedout",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Leo Bothman",
+      "source": "site database",
+      "IVRS": "120407-200",
+      "visitType": "VISIT8",
+      "nextVisitType": "V7",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "active",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": "11/01/2021"
+    },
+    {
+      "name": "Omar Herwitz",
+      "source": "site database",
+      "IVRS": "125507-900",
+      "visitType": "VISIT24",
+      "nextVisitType": "V21",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "active",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Marcus Philips",
+      "source": "ctm",
+      "IVRS": "110407-770",
+      "visitType": "VISIT16",
+      "nextVisitType": "V16",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "complete",
+      "trialState": "droppedout",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Nolan Aminoff",
+      "source": "ctm",
+      "IVRS": "123887-770",
+      "visitType": "VISIT16",
+      "nextVisitType": "V12",
+      "visitScheduled": "",
+      "userState": "active",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": "11/01/2021"
+    },
+    {
+      "name": "Lincoln Kenter",
+      "source": "site database",
+      "IVRS": "120907-770",
+      "visitType": "VISIT24",
+      "nextVisitType": "V24",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "complete",
+      "trialState": "droppedout",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Ann Ekstrom",
+      "source": "ctm",
+      "IVRS": "124567-870",
+      "visitType": "VISIT16",
+      "nextVisitType": "V11",
+      "visitScheduled": "",
+      "userState": "complete",
+      "trialState": "droppedout",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Brett Christian",
+      "source": "site database",
+      "IVRS": "122207-770",
+      "visitType": "VISIT24",
+      "nextVisitType": "V21",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "complete",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Molan Christian",
+      "source": "site database",
+      "IVRS": "222207-770",
+      "visitType": "VISIT24",
+      "nextVisitType": "V21",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "complete",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Crish Christian",
+      "source": "site database",
+      "IVRS": "133207-770",
+      "visitType": "VISIT24",
+      "nextVisitType": "V21",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "complete",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    },
+    {
+      "name": "Begamma Christian",
+      "source": "site database",
+      "IVRS": "123407-770",
+      "visitType": "VISIT24",
+      "nextVisitType": "V21",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "complete",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": "12/01/2021"
+    },
+    {
+      "name": "Brett Christian",
+      "source": "site database",
+      "IVRS": "126307-770",
+      "visitType": "VISIT8",
+      "nextVisitType": "V7",
+      "visitScheduled": "Need visit scheduled",
+      "userState": "complete",
+      "trialState": "complete",
+      "apptDate": "07/01/2021",
+      "lastUpdateDate": "08/01/2021",
+      "droppedDate": "09/01/2021",
+      "completedDate": "10/01/2021",
+      "nextFollowUpDate": ""
+    }
+  ],
+  "patientNotes": [
+    {
+      "name": "Jana Church",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": "private"
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": "private"
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": "private"
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": ""
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "07/28/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Call center",
+      "type": "private"
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": "private"
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": "private"
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": "private"
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": ""
+    },
+    {
+      "name": "Jana Church",
+      "createdDate": "07/28/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Call center",
+      "type": "private"
+    },
+    {
+      "name": "Miracle Stanton",
+      "createdDate": "05/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Call center",
+      "type": ""
+    },
+    {
+      "name": "Miracle Stanton",
+      "createdDate": "06/18/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Call center",
+      "type": "private"
+    },
+    {
+      "name": "Miracle Stanton",
+      "createdDate": "06/08/2021",
+      "notes": "Patient responding well to treatment",
+      "createdBy": "Site",
+      "type": "private"
+    }
+  ],
+  "histories": [
+    {
+      "referralEventDetailsId": 0,
+      "eventTypeId": 6,
+      "comments": "comments1",
+      "referralStatusName": "Pre-Qualified",
+      "referralStatusId": 1,
+      "eventTypeName": "Visit Scheduled",
+      "referralVisitId": 5,
+      "eventDate": "2021-07-15T04:00:00"
+    },
+    {
+      "referralEventDetailsId": 1,
+      "eventTypeId": 6,
+      "comments": "comments2",
+      "referralStatusName": "Pre-Qualified",
+      "referralStatusId": 1,
+      "eventTypeName": "Visit Scheduled",
+      "referralVisitId": 5,
+      "eventDate": "2021-07-16T04:00:00"
+    },
+    {
+      "referralEventDetailsId": 2,
+      "eventTypeId": 6,
+      "comments": "comments3",
+      "referralStatusName": "Pre-Qualified",
+      "referralStatusId": 1,
+      "eventTypeName": "Visit Scheduled",
+      "referralVisitId": 5,
+      "eventDate": "2021-07-13T04:00:00"
+    },
+    {
+      "referralEventDetailsId": 3,
+      "eventTypeId": 6,
+      "comments": "comments4",
+      "referralStatusName": "Pre-Qualified",
+      "referralStatusId": 1,
+      "eventTypeName": "Visit Scheduled",
+      "referralVisitId": 5,
+      "eventDate": "2021-07-18T04:00:00"
+    },
+    {
+      "referralEventDetailsId": 4,
+      "eventTypeId": 6,
+      "comments": "comments5",
+      "referralStatusName": "Pre-Qualified",
+      "referralStatusId": 1,
+      "eventTypeName": "Visit Scheduled",
+      "referralVisitId": 5,
+      "eventDate": "2021-07-19T04:00:00"
+    }
+  ],
+  "qualifications": [
+    {
+      "questionId": 1,
+      "question": "Sample question here1",
+      "answer": "answer1",
+      "referralId": 6,
+      "id": 0
+    },
+    {
+      "questionId": 2,
+      "question": "Sample question here2",
+      "answer": "answer2",
+      "referralId": 6,
+      "id": 0
+    },
+    {
+      "questionId": 3,
+      "question": "Sample question here3",
+      "answer": "answer3",
+      "referralId": 6,
+      "id": 0
+    },
+    {
+      "questionId": 4,
+      "question": "Sample question here4",
+      "answer": "answer4",
+      "referralId": 6,
+      "id": 0
+    }
+  ]
+}

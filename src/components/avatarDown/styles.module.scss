@@ -1,0 +1,29 @@
+.dropicon{
+  vertical-align: center;
+  padding-left: 12px;
+}
+.label{
+  font-family: 'Poppins';
+  display: flex;
+}
+.menuitem{
+  font-family: 'Poppins';
+  font-size: 14px;
+  padding-top: 10px;
+}
+.button{
+  font-size: 12px;
+  padding-left: 50px;
+}
+.avatar{
+  @media (min-width: 396px) {
+    margin-left: 10px;
+  }
+  @media (max-width: 395px) {
+    margin-left: -20px;
+  }
+}
+.droplist{
+  display: flex;
+  padding-top: 8px;
+}

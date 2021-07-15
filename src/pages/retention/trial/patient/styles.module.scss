@@ -1,0 +1,90 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  position: relative;
+  .header{
+    padding-right: 10px;
+    @media only screen and (min-height: 970px) {
+      padding-bottom: 35px;
+    }
+    margin-right: -25px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: right;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .content{
+    @media only screen and (min-height: 801px) {
+      height: 80vh;
+    }
+    @media only screen and (max-height: 800px) {
+      height: 78vh;
+    }
+    .leftContent{
+      height: 100%;
+      border-right-color: $line-primary;
+      border-right-style: solid;
+      border-right-width: 0.5px;
+      .header{
+        display: block;
+        .label{
+          padding-left: 20px;
+          font-family: 'Roboto';
+          color: $label-primary;
+          font-size: 14px;
+          letter-spacing: 1.5px;
+        }
+        .title{
+          display: flex;
+          justify-content: space-between;
+          .label{
+            padding-left: 20px;
+            font-family: 'Roboto';
+            font-weight: bold;
+            font-size: 25px;
+            color: black;
+          }
+          .badgeFlap{
+            height: 20px;
+            font-family: 'Roboto';
+            font-style: bold;
+            margin-right: 100px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 4px;
+            color: white;
+            font-size: 13px;
+            background-color: $forth;
+            border-radius: 30px;
+          }
+        }
+        .tabButtonFlap{
+          margin-left: -40px;
+          margin-top: 20px;
+          
+        }
+        .dividerFlap{
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
+.stepper{
+  // @media (max-width: 1080px) {
+  //   width: 300px;
+  // }
+  // @media (min-width: 1081px) {
+  //   width: 100%;
+  // }
+  width: 300px;
+  height: 83vh;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+  

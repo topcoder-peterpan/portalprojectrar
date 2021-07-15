@@ -1,0 +1,53 @@
+// /* SINGLE SCREEN SIZES */
+@mixin sm-only {
+  @media (min-width: $small-min-breakpoint) and (max-width: $small-max-breakpoint) {
+    @content;
+  }
+}
+@mixin md-only {
+  @media (min-width: $medium-min-breakpoint) and (max-width: $medium-max-breakpoint) {
+    @content;
+  }
+}
+@mixin lg-only {
+  @media (min-width: $large-min-breakpoint) {
+    @content;
+  }
+}
+/* ONLY VISIBLE ON SAID SCREEN OR LARGER */
+@mixin lg-and-above {
+  @include lg-only {
+    @content;
+  }
+}
+@mixin md-and-above {
+  @media (min-width: $medium-min-breakpoint) {
+    @content;
+  }
+}
+@mixin sm-and-above {
+  @media (min-width: $small-min-breakpoint) {
+    @content;
+  }
+}
+@mixin xs-and-above {
+  @media (min-width: $xs-min-breakpoint) {
+    @content;
+  }
+}
+/* ONLY VISIBLE ON SAID SCREEN AND BELOW */
+@mixin lg-and-below {
+  @media (max-width: $medium-max-breakpoint) {
+    @content;
+  }
+}
+@mixin md-and-below {
+  @media (max-width: $medium-min-breakpoint) {
+    @content;
+  }
+}
+@mixin sm-and-below {
+  @media (max-width: 992px) {
+    @content;
+  }
+}

@@ -1,0 +1,59 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  .home{
+    margin: auto;
+    margin-top: 40px;
+    width: 70%;
+    .title{
+      text-align: center;
+      font-family: 'Roboto';
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .button{
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .content{
+    padding-top: 10px;
+    .title{
+      text-align: center;
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 500;
+      color: $primary;
+    }
+    .dateTimePicker{
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      .datePicker{
+        width: 160px;
+        border-bottom-width: 1.5px;
+        border-bottom-style: solid;
+        padding-top: 5px;
+        padding-left: 22px;
+        border-color: $primary;
+      }
+      .timePicker{
+        width: 160px;
+        border-bottom-width: 1.5px;
+        border-bottom-style: solid;
+        padding-top: 5px;
+        padding-left: 22px;
+        border-color: $primary;
+      }
+    }
+    .buttons{
+      margin-top: 50px;
+      display: flex;
+      justify-content: right;
+      gap: 20px;
+      padding-right: 10px;
+    }
+  }
+}

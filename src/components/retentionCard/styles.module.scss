@@ -1,0 +1,94 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  background-color: white;
+  min-width: 240px;
+  height: 130px;
+  border-radius: 4px;
+  box-shadow:  0px 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto';
+  position: relative;
+  font-size: 12px;
+  position: relative;
+  &:hover{
+    box-shadow: 2px 2px 5px 2px rgba(0, 0 ,0, 0.3);
+    cursor: pointer;
+  }
+  .moreButton{
+    position: absolute;
+    right: 5px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .title{
+    display: flex;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 30px;
+  }
+  .type{
+    padding-left: 10px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+  .ivrs{
+    padding-left: 10px;
+    padding-top: 5px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    color: $label-primary;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    .labelFlap{
+      display: flex;
+      gap: 5px;
+      padding-right: 10px;
+    }
+  }
+  .dividerFlap{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: $label-primary;
+    padding-top: -10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-family: 'Roboto' !important;
+    .titleFlap{
+      display: flex;
+      .labelFlap{
+        padding-right: 3px;
+      }
+    }
+    .visit{
+      color:$third;
+      font-weight: bold;
+    }
+  }
+}
+
+.modalBody{
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18%;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 40px;
+}

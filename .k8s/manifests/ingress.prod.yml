@@ -1,0 +1,43 @@
+﻿apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: "ingress-sm-site-portal-{{branch}}"
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    service.beta.kubernetes.io/azure-dns-label-name: "sm-site-portal-{{branch}}"
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+  labels:
+    app: "ingress-sm-site-portal-{{branch}}"
+spec:
+#  TODO DEBUG - Enable when tls is ready
+#  tls:
+#    - hosts:
+#        - "{{subdomain}}.studymaxportal.com"
+#      secretName: studymax-prod-tls
+  rules:
+    - host: "{{subdomain}}.studymaxportal.com"
+      http:
+        paths:
+          # single page app routes
+          - path: /(login|dashboard|study|profile|calendar|support)[^\?]*(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: "web-sm-site-portal-{{branch}}"
+                port: 
+                  number: 80
+          - path: /((static/.*))
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: "web-sm-site-portal-{{branch}}"
+                port: 
+                  number: 80
+          - path: /((.*))
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: "web-sm-site-portal-{{branch}}"
+                port: 
+                  number: 80

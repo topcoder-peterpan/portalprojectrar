@@ -1,0 +1,22 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.modalBody{
+  @media (max-width: 1024px) {
+    width: 83%;
+    height: 92%;
+  }
+  @media (min-width: 1025px) {
+    width: 80%;
+    height: 92%; 
+  }
+  margin: 2% auto;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  .modalContent{
+    padding: 40px;
+    height: calc(100% - 60px);
+  }
+}

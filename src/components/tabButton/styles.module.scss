@@ -1,0 +1,14 @@
+.root {
+  width: 100%;
+  flex-grow: 1;
+  .tabs{
+    .tab{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: 1.5px;
+    }
+  }
+}

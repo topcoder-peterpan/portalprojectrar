@@ -1,0 +1,17 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  display: block;
+  max-width: 255px;
+  padding-bottom: 10px;
+  .datePickerFlap{
+    width: 230px;
+  }
+  .timePickerFlap{
+    width: 230px;
+  }
+  .textFieldFlap{
+    width: 230px;
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+*.css
+
+# ignore prod environment constants
+src/constants/env.ts
+
+src/assets

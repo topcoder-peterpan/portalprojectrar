@@ -1,0 +1,21 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  min-height: 53px;
+  min-width: 170px;
+  .content{
+    display: flex;
+    .iconFlap{
+      padding-top: 7px;
+      padding-right: 6px;
+    }
+    .labelFlap{
+      padding-top: 11px;
+      font-family: 'Poppins';
+      font-weight: 600;
+      line-height: 18px;
+      font-size: 12px
+    }
+  }
+}

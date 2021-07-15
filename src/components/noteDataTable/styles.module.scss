@@ -1,0 +1,19 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  min-width: 650px;
+  font-family: 'Roboto';
+  .headerRow{
+    position: sticky;
+    z-index: 10;
+    background-color: white;
+    top: 0;
+    .header{
+      color: $label-primary;
+    }
+  }
+  .body{
+    font-weight: bold;
+  }
+}

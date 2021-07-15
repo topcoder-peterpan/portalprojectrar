@@ -1,0 +1,15 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.title{
+  color: $label-secondary;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: 1.5px;
+  width: 100%;
+  .select {
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 14px;
+  }
+}

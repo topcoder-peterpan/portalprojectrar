@@ -1,0 +1,33 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  display: block;
+  padding-top: 45px;
+  .badge{
+    display: flex;
+    padding-bottom: 20px;
+    .label{
+      padding-right: 20px;
+      font-family: 'Roboto';
+      color: $label-secondary;
+      font-weight: 400px;
+    }
+  }
+  .listBox{
+    width: 90%;
+    max-height: 625px !important;
+    overflow: auto;
+  }
+  .footer{
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: $label-third;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    line-height: 17px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+}

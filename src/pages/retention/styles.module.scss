@@ -1,0 +1,9 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  display: block;
+  .grid{
+    margin: 0px !important;
+  }
+}

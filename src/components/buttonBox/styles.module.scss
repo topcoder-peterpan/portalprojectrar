@@ -1,0 +1,67 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  margin-top: 35px;
+  font-family: 'Poppins';
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .tooglebutton{
+    margin-top: 32px;
+  }
+  @media only screen and (max-width: 944px) {
+    .tooglebutton{
+      padding-top: 25px;
+    }
+  }
+  @media only screen and (max-width: 454px) {
+    .tooglebutton{
+      padding-top: 55px;
+    }
+  }
+  .buttonWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .dropdown {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      .label{
+        padding-right: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #777777;
+        font-family: 'Roboto';
+      }
+    }
+  
+    & > * {
+      margin-top: 20px;
+    }
+  
+    @include xs-and-above {
+      & > * + * {
+        padding-left: 20px;
+      }
+  
+      .dropdown {
+        width: auto;
+      }
+    }
+  }
+}
+.window{
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc((100vh - 400px) / 2 - 50px);
+}

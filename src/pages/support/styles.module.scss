@@ -1,0 +1,99 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+
+.root{
+  margin-left: 7%;
+  width: 86%;
+  @media (min-width: 1281px) {
+    margin-top: 70px;
+  }
+  @media (max-width: 1280px) {
+    margin-top: 70px;
+    overflow: auto;
+  }
+  @media (max-width: 375px) {
+    height: 65vh;
+  }
+  @media (min-width: 376px) {
+    height:72vh;
+  }
+  background-color: white;
+  box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, 0.05);
+  .content{
+    margin: 5%;
+    .leftContent{
+      display: block;
+      margin-top: 15%;
+      margin-left: 10%;
+      .logo{
+        @media (max-width: 375px) {
+          margin-bottom: 50px;
+          padding-left: 13%;
+        }
+      }
+      .label{
+        margin-right: 10%;
+        font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: normal;
+      }
+    }
+    .rightContent{
+      @media (min-width: 1280px) {
+        margin-left: 10%;
+        margin-top: 50%;
+      }
+      @media (max-width: 1279px) {
+        margin-left: 10%;
+        margin-top: 5%;
+      }
+      display: block;
+      .contact{
+        display: block;
+        .jobLabel{
+          font-family: 'Poppins';
+          font-size: 14px;
+          color: $primary;
+          font-weight: 600;
+        }
+        .nameLabel{
+          font-family: 'Poppins';
+          font-size: 20px;
+          letter-spacing: 1.5;
+          font-weight: bold;
+          margin-top: 5px;
+        }
+        .email{
+          display: flex;
+          margin-top: 10px;
+          .emailLabel{
+            font-family: 'Poppins';
+            font-size: 13px;
+            color: $primary;
+            font-weight: 600;
+            padding-top: 3px;
+            padding-left: 10px;
+          }
+        }
+        .phone{
+          display: flex;
+          margin-top: 20px;
+          .phoneLabel{
+            font-family: 'Poppins';
+            font-size: 15px;
+            color: $primary;
+            font-weight: 600;
+            padding-left: 10px;
+          }
+        }
+      }
+      .divider{
+        width: 70%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

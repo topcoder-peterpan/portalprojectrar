@@ -1,0 +1,21 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root {
+  display: block;
+  position: relative;
+  padding-top: 20px;
+  font-size: 14px;
+  .commentFlap{
+    padding-bottom: 10px;
+  }
+  .buttonFlap{
+    padding-bottom: 10px;
+  }
+  .buttonBottom{
+    display: flex;
+    .button{
+      width: 110px;
+    }
+  }
+}

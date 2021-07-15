@@ -1,0 +1,138 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.border{
+  border-style: dashed;
+  border-width: 2px;
+  border-color: $label-secondary;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  .root{
+    display: block;
+    align-items: center;
+    color: $label-secondary;
+    .icon{
+      @media (min-width: 691px) {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 45%;
+      }
+      @media (max-width: 690px) {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 42%;
+      }
+    }
+    .content{
+      font-family: 'Roboto';
+      display: flex;
+      padding-bottom: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      .label{
+        padding-top: 4px;
+        padding-right: 4px;
+      }
+      .bold{
+        color: $primary;
+        font-size: 22px;
+        font-weight: 700px;
+      }
+    }
+  }
+}
+.contentLoad{
+  border-style: dashed;
+  border-width: 2px;
+  border-color: $label-secondary;
+  display: flex;
+  justify-content: center;
+  .loaded{
+    margin-top: 68px;
+    display: flex;
+    margin-bottom: 69px;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 0px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    background-color: $primary;
+    border-radius: 30px;
+    .fileName{
+      color: white;
+      padding-top: 4px;
+      white-space: nowrap;
+      width: 50px; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .fileSize{
+      font-weight: 400;
+      margin-left: 10px;
+      padding-right: 10px;
+      color: '#5FF5FF';
+      padding-top: 4px;
+    }
+    .buttons{
+      padding-right: 10px;
+    }
+  }
+}
+.rootProgress{
+  display: block;
+  align-items: center;
+  .contentProgress{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: $label-secondary;
+    display: block;
+    justify-content: center;
+    .progressLabel{
+      color: $primary;
+      font-family: 'Roboto';
+      font-weight: 'bold';
+      font-size: 18px;
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    .loaded{
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+      margin-bottom: 20px;
+      border-radius: 30px;
+      font-family: 'Roboto';
+      font-size: 14px;
+      padding-top : 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 0px;
+      background-color: $primary;
+      .fileName{
+        color: white;
+        padding-top: 4px;
+        white-space: nowrap; 
+        width: 50px; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .fileSize{
+        color: '#5FF5FF';
+        font-weight: 400;
+        padding-top: 4px;
+        margin-left: 10px;
+        padding-right: 10px;
+      }
+      .buttons{
+        padding-right: 10px;
+      }
+    }
+    .progressBar{
+      width: 80%;
+      padding-left: 10%;
+      padding-bottom: 38px;
+    }
+  }
+}

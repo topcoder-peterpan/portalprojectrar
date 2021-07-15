@@ -1,0 +1,32 @@
+.root{
+  // min-width: fit-content;
+  @media only screen and (min-height: 950px) {
+    padding-top: 30px;
+    height: 78vh;
+  }
+  @media only screen and (max-height: 949px) {
+    padding-top: 20px;
+    height: 72vh;
+  }
+  @media only screen and (max-height: 800px) {
+    padding-top: 10px;
+    height: 70vh;
+  }
+  overflow-y: scroll;
+  // width: 100%;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .show{
+    display: show;
+    transition: height 0.2s;
+  }
+  .hide{
+    display: none;
+    transition: height 0.2s;
+  }
+  .content{
+    position: relative;
+    margin-top: -10px;
+  }
+}

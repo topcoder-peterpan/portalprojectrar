@@ -1,0 +1,46 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  display: block;
+  width: 100%;
+  @media only screen and (min-height: 860px) {
+    height: 100vh;
+  }
+  @media only screen and (max-height: 859px) {
+    height: 56vh;
+  }
+  @media only screen and (max-height: 800px) {
+    height: 50vh;
+  }
+  @media only screen and (max-height: 685px) {
+    height: 49vh;
+  }
+  @media only screen and (max-height: 657px) {
+    height: 45vh;
+  }
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .texts{
+    padding-bottom: 40px;
+    .block{
+      display: block;
+      .title{
+        font-family: 'Roboto';
+        color: #7B91AB;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+      }
+      .label{
+        padding-left: 0px;
+        padding-top: 10px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+      }
+    }
+  }
+}

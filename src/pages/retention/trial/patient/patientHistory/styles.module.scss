@@ -1,0 +1,24 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.table{
+  max-height: 60vh;
+  position: relative;
+  overflow: auto;
+  .root{
+    min-width: 650px;
+    font-family: 'Roboto';
+    .headerRow{
+      position: sticky;
+      z-index: 10;
+      background-color: white;
+      top: 0;
+      .header{
+        color: $label-primary;
+      }
+    }
+    .body{
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,188 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.table{
+  // max-height: 65vh;
+  position: relative;
+  // overflow: auto;
+  .tabPanelFour{
+    margin-top: -20px;
+    display: block;
+    font-family: 'Poppins';
+    .header{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      padding-top: 20px;
+      .noteTitle{
+        margin-top: 15px;
+        width: 70%;
+      }
+      .buttonBox{
+        padding-left: 20px;
+        display: flex;
+        vertical-align: center;
+        padding-top: 22px;
+        .switchButtonFlap{
+          padding-right: 10px;
+        }
+        .labelFlap{
+          padding-top: 8px;
+          padding-right: 10px;
+          @media only screen and (max-width: 1656px) {
+            font-size: 12px;
+          }
+        }
+        .iconButtonFlap{
+          padding-right: 20px;
+          position: relative;
+          .modalBody{
+            position: absolute;
+            z-index: 550;
+            border-style: solid;
+            border-color: $line-secondary;
+            border-width: 1px;
+            top:60px;
+            left: -245px;
+            background-color: white;
+            padding-top: 40px;
+            padding-left: 40px;
+            width: 300px;
+            height: 150px;
+            z-index: 100;
+            border-radius: 6px;
+            box-shadow:  0px 4px 20px rgba(0, 0, 0, 0.2);
+            font-family: 'Roboto';
+            font-size: 14px;
+            .triangleShape{
+              position: absolute;
+              top: -22px;
+              left: 250px;
+              height: 19px;
+              overflow: hidden;
+              padding-top: 11px;
+              .shape{
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                background-color: white;
+                border-color: $line-secondary;
+                border-style: solid;
+                border-width: 1.5px;
+                transform: rotate(45deg); 
+              }
+            }
+            .title{
+              font-weight: 600;
+              padding-bottom: 20px;
+            }
+            .content{
+              font-weight: 400;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+      .buttons{
+        display: flex;
+        font-family: 'Roboto';
+        .labelFlap{
+          padding-top: 18px;
+          padding-right: 20px;
+          font-size: 14px;
+          color: $label-secondary;
+        }
+        .buttonFlap{
+          width: 200px;
+          padding-top: 0px;
+        }
+      }
+      .outlineFlap{
+        padding-right: 30px;
+        .content{
+          margin-top: -15px;
+          display: flex;
+          vertical-align: center;
+          padding-top: 20px;
+          .icon{
+            @media only screen and (min-width: 1204px) {
+              padding-right: 20px;
+            }
+            @media only screen and (max-width: 1203px) {
+              padding-left: auto;
+            }
+            color: $primary;
+            padding-top: 5px;
+          }
+          .label{
+            padding-top: 5px;
+            color: $primary;
+            padding-right: 5px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .body{
+      @media only screen and (min-height: 730px) {
+        height: 58vh;
+      }
+      @media only screen and (max-height: 729px) {
+        height: 48vh;
+      }
+      position: relative;
+      overflow: auto;
+    }
+    .contentText{
+      &:hover{
+        border-color: $primary !important;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 2px !important;
+      }
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      border-style: solid;
+      border-color: $line-secondary;
+      border-radius: 5px;
+      border-width: 1.5px;
+      @media only screen and (min-height: 780px) {
+        height: 40vh;
+      }
+      @media only screen and (max-height: 779px) {
+        height: 36vh;
+      }
+      @media only screen and (max-height: 730px) {
+        height: 30vh;
+      }
+      @media only screen and (max-height: 700px) {
+        height: 25vh;
+      }
+      overflow-y: scroll;
+      // width: 100%;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .bottomButtons{
+      display: flex;
+      padding-top: 30px;
+      justify-content: flex-end;
+      .saveButtonFlap{
+        padding-right: 20px;
+        .saveButton{
+          width: 120px;
+        }
+      }
+      .cancelButtonFlap{
+        padding-right: 30px;
+        .cancelButton{
+          width: 120px;
+        }
+      }
+    }
+  }
+}

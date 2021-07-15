@@ -1,0 +1,173 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: -5px;
+  .title{
+    height: 58px;
+    display: flex;
+      .badge{
+        z-index: 100;
+        width: 30px;
+        height: 30px;
+        margin-top: 9px;
+        font-size: 10px;
+        background-color: $primary;
+        border-radius: 25px;
+        color: white;
+        font-family: "Poppins";
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .badgeDash{
+        z-index: 100;
+        width: 28px;
+        height: 28px;
+        margin-top: 9px;
+        font-size: 10px;
+        background-color: white;
+        border-radius: 25px;
+        color: $label-primary;
+        font-family: "Poppins";
+        font-weight: 600;
+        display: flex;
+        border-color: $label-primary;
+        border-style: dashed;
+        border-width: 1px;
+        justify-content: center;
+        align-items: center;
+      }
+      .badgeDot{
+        z-index: 100;
+        width: 30px;
+        height: 30px;
+        margin-top: 9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+     .label{
+        height: 100%;
+        color: $label-secondary;
+        font-size: 12px;
+        color: black;
+        font-family: 'Roboto';
+        font-weight: 500;
+        margin-top: 15px;
+        line-height: 15px;
+        margin-left: -15px;
+        padding-left: 22px;
+        border-left: solid;
+        border-width: 1px;
+        border-color: #2C6FB4;
+      }
+      .labelActive{
+        height: 100%;
+        color: $label-secondary;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        color: #2C6FB4;
+        margin-top: 15px;
+        margin-left: -15px;
+        padding-left: 22px;
+        border-left: solid;
+        border-width: 1px;
+        border-color: #2C6FB4;
+        z-index: 10;
+      }
+      .labelComplete{
+        height: 100%;
+        color: $label-secondary;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        color: black;
+        margin-top: 15px;
+        margin-left: -15px;
+        padding-left: 22px;
+        border-left: solid;
+        border-width: 1px;
+        border-color: #2C6FB4;
+        z-index: 10;
+      }
+      .labelPending{
+        height: 100%;
+        color: $label-secondary;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        color: $label-primary;
+        margin-top: 15px;
+        margin-left: -15px;
+        padding-left: 22px;
+        border-left: dashed;
+        border-width: 1px;
+        border-color: $label-primary;
+      }
+      .labelPendingEnd{
+        height: 100%;
+        color: $label-secondary;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Poppins';
+        color: $label-primary;
+        margin-top: 15px;
+        margin-left: -15px;
+        padding-left: 25px;
+      }
+      .labelWithLine{
+        border-left: solid;
+        border-width: 1px;
+        height: 100%;
+        color: $label-secondary;
+        font-size: 12px;
+        color: black;
+        font-family: 'Roboto';
+        margin-top: 18px;
+        font-weight: 500;
+        margin-left: -15px;
+        padding-left: 20px;
+        border-color: #2C6FB4;
+        z-index: 20;
+      }
+      .labelWithDashLine{
+        border-left: dashed;
+        border-width: 1px;
+        height: 100%;
+        color: $label-secondary;
+        font-size: 12px;
+        color: black;
+        font-family: 'Roboto';
+        margin-top: 19px;
+        font-weight: 500;
+        margin-left: -15px;
+        padding-left: 20px;
+        border-color: $label-primary;
+        z-index: 5;
+      }
+      .labelWithDashLinePending{
+        border-left: dashed;
+        border-width: 1px;
+        height: 30px;
+        color: $label-secondary;
+        font-size: 12px;
+        color: black;
+        font-family: 'Roboto';
+        margin-top: 18px;
+        margin-left: -15px;
+        padding-left: 20px;
+        border-color: $label-primary;
+        z-index: 10;
+      }
+    }
+    .expandButtonActive{
+      padding-top: 5px;
+    }
+}

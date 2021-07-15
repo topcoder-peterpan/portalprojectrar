@@ -1,0 +1,29 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  display: flex;
+  margin-left: -26px;
+  padding-top: 30px;
+  .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
+    background-color: $primary;
+    content: ' ';
+  }
+  .labelBig{
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: -3px;
+    font-size: 12px;
+  }
+  .labelSmall{
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: -3px;
+    font-size: 11px;
+  }
+}

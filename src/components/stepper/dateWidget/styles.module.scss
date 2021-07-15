@@ -1,0 +1,26 @@
+@import '/src/styles/variables';
+@import '/src/styles/screenhooks';
+
+.root{
+  width: 100%;
+  .label{
+    font-size: 14px;
+    color: black;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+  }
+  .datePickerFlap{
+    border: solid !important;
+      height: 39px;
+      border-width: 0.5px !important;
+      border-radius: 4px !important;
+      border-color: #caccd1 !important; 
+    width: 230px;
+  }
+  .bottomButton{
+    margin-top: 10px;
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+  }
+}
